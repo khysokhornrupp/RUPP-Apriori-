@@ -1,3 +1,25 @@
-what is sort with key 
+===><===
 
-YpuTube in 15:32 part1 3B
+===> any() vs all() 
+
+===> l[start:end:step] # slices from start to end - 1 but slide by the step value
+l[::] # slices through the entire list i.e. does a copy of the list
+
+===> np.reshape(np_list, newshape = (row, column))
+
+get last 2 items in list 
+===> itemsets[1][-2:] # last 2 item in list 
+
+get first item in list 
+===> itemsets[1][:2] # first 2 item in list 
+
+===> Generate all posible itemset in 2 list 
+set((x, y) for x in xs for y in yx)
+np.meshgrid(arr1, arr2) 
+
+
+===> numpy slice 
+np.array([])[start:stop:step]
+np.array([])[::step] get all with step 
+np.array([])[:10:step] get all from index 0 to 10 
+np.array([])[10:12:step] get all from index 10 t0 12 
