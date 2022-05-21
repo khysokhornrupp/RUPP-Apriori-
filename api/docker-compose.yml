@@ -1,0 +1,18 @@
+version: '2'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+
+      - .:/code
+volumes:
+  aprioridata:
+    driver: local
+  # depends_on:
+  #   - redis
+  # redis:
+  #   image: redis
+  #   volumes:
+  #     - .:/code
