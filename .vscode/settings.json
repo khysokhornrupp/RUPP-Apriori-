@@ -1,4 +1,9 @@
 {
     "todo-tree.tree.showBadges": false,
-    "todo-tree.tree.showCountsInTree": false
+    "todo-tree.tree.showCountsInTree": false,
+    "editor.fontSize": 14,
+    "editor.fontWeight": "normal",
+    "editor.suggestFontSize": 12,
+    "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 14,
 }
